@@ -1,10 +1,10 @@
 export const baseAbilityScoreBlock = {
-    STR: 8,
-    DEX: 8,
-    CON: 8,
-    INT: 8,
-    WIS: 8,
-    CHA: 8,
+    STR: 5,
+    DEX: 5,
+    CON: 5,
+    INT: 5,
+    WIS: 5,
+    CHA: 5,
 };
 export function getModifier(attr) {
     if (attr == 1) {
