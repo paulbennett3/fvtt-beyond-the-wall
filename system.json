@@ -2,14 +2,14 @@
 	"id": "beyond-the-wall",
 	"title": "Beyond The Wall",
 	"description": "A basic system for Beyond the Wall, likely extensible to many OSR systems.",
-	"version": "1.0",
+	"version": "1.0d",
 	"author": "studio315b, elizeuangelo, goblins",
-	"scripts": [],
-	"esmodules": ["beyond-the-wall.js"],
-	"styles": ["beyond-the-wall.css"],
-	"languages": [
+	"scripts": [
             "scripts/build_character.js"
 	],
+	"esmodules": ["beyond-the-wall.js"],
+	"styles": ["beyond-the-wall.css"],
+	"languages": [],
 	"gridDistance": 1,
 	"gridUnits": "yd",
 	"compatibility": {
