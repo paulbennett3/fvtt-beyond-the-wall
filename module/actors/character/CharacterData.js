@@ -21,7 +21,7 @@ export const emptyCharacterData = {
     goals: [],
     heightWeight: '',
     hp: { max: 10, value: 10 },
-    initiative: '1d10',
+    initiative: '0',
     mab: 0,
     mainNotes: '',
     maxWeight: 0,
