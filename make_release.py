@@ -1,3 +1,35 @@
+#
+# make_release.py
+#
+#  This script is used to create a new github release (well, to prep for it --
+#   some manual action is needed ...)
+#
+#  Update and checkin files as usual.
+#
+#  Decide on the new version (see 'version' in system.json, roll up as appropriate)
+#  Invoke this file as:
+#    python make_release.py <new version>
+#
+#  This will update system.json (including path to downloads and manifest),
+#   delete the old zip file, and create the new zip file (with updated manifest)
+#
+#  It also adds, commits, and tags with the new version.
+#
+#  MANUAL ACTIONS REQUIRED:
+#    1) using the command line printed out (git push -u origin <version name>) to push WITH TAG to github
+#    2) On github (https://github.com/paulbennett3/fvtt-beyond-the-wall/releases), "Draft a new release"
+#         - make sure to pick the correct tag (the new version)
+#         - pick the correct branch (currently "ga")
+#         - drag and drop the new beyond-the-wall.zip and system.json to the "binaries" area
+#         - publish the release
+#    3) On the release page (you can navigate their via the "latest" link), copy the link address
+#        of the system.json file
+#    4) In foundry setup, install the new system, pasting the link to system.json you copied above
+#    5) Viola! Profit!
+#
+#
+
+
 import json
 import os
 import sys
