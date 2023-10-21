@@ -37,7 +37,7 @@ export const emptyCharacterData = {
     },
     skills: [],
     slots: 0,
-    speed: 0,
+    level: 1,
     traits: '',
     treasure: '',
 };

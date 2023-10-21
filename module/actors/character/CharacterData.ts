@@ -15,7 +15,7 @@ export type CharacterData = ActorData & {
 	type: CharacterActorType;
 	class: string;
 	exp: Resource;
-	speed: number;
+	level: number;
 	initiative: string;
 	ac: number;
 	abilities: AbilityScoreBlock;
@@ -96,7 +96,7 @@ export const emptyCharacterData: CharacterData = {
 	},
 	skills: [],
 	slots: 0,
-	speed: 0,
+	level: 1,
 	traits: '',
 	treasure: '',
 };
