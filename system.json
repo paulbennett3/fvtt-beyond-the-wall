@@ -2,7 +2,7 @@
     "id": "beyond-the-wall",
     "title": "Beyond The Wall",
     "description": "A basic system for Beyond the Wall, likely extensible to many OSR systems.",
-    "version": "1.0.1g",
+    "version": "v1.0.1g",
     "author": "studio315b, elizeuangelo, goblins",
     "scripts": [],
     "esmodules": [
