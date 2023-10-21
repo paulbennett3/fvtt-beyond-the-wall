@@ -7,7 +7,9 @@
 	"scripts": [],
 	"esmodules": ["beyond-the-wall.js"],
 	"styles": ["beyond-the-wall.css"],
-	"languages": [],
+	"languages": [
+            "scripts/build_character.js"
+	],
 	"gridDistance": 1,
 	"gridUnits": "yd",
 	"compatibility": {
@@ -16,8 +18,8 @@
 	},
 	"initiative": "@initiative",
 	"url": "https://github.com/paulbennett3/fvtt-beyond-the-wall",
-	"manifest": "https://github.com/paulbennett3/fvtt-beyond-the-wall/releases/download/v1.0.1b/system.json",
-	"download": "https://github.com/paulbennett3/fvtt-beyond-the-wall/releases/download/v1.0.1b/beyond-the-wall.zip",
+	"manifest": "https://github.com/paulbennett3/fvtt-beyond-the-wall/releases/download/v1.0.1c/system.json",
+	"download": "https://github.com/paulbennett3/fvtt-beyond-the-wall/releases/download/v1.0.1c/beyond-the-wall.zip",
 	"license": "https://github.com/elizeuangelo/fvtt-beyond-the-wall/blob/master/license.adoc",
 	"readme": "https://github.com/elizeuangelo/fvtt-beyond-the-wall/blob/master/README.md",
 	"bugs": "https://github.com/elizeuangelo/fvtt-beyond-the-wall/issues",
