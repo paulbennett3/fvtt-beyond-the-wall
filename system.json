@@ -4,9 +4,7 @@
 	"description": "A basic system for Beyond the Wall, likely extensible to many OSR systems.",
 	"version": "1.0d",
 	"author": "studio315b, elizeuangelo, goblins",
-	"scripts": [
-            "scripts/build_character.js"
-	],
+	"scripts": [],
 	"esmodules": ["beyond-the-wall.js"],
 	"styles": ["beyond-the-wall.css"],
 	"languages": [],
